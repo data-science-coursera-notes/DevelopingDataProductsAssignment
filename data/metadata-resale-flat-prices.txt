@@ -1,0 +1,154 @@
+# Metadata for Resale Flat Prices
+---
+Identifier: '7a339d20-3c57-4b11-a695-9348adfd7614'
+Name: 'resale-flat-prices'
+Title: 'Resale Flat Prices'
+Description:
+  - 'Resale transacted prices.'
+  - 'Prior to March 2012, data is based on date of approval for the resale transactions.'
+  - 'For March 2012 onwards, the data is based on date of registration for the resale
+    transactions.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Flats'
+  - 'HDB'
+  - 'Property'
+  - 'Resale'
+  - 'Transacted'
+  - 'housing'
+Publisher:
+  Name: 'Housing and Development Board'
+Sources:
+  - 'Housing and Development Board'
+License: 'https://data.gov.sg/terms'
+Frequency: 'Annual'
+Coverage: '2000-01-01 to 2016-06-30'
+Last Updated: '2016-07-22T03:56:34.782267'
+Resources:
+  -
+    Identifier: '83b2fc37-ce8c-4df4-968b-370fd818138b'
+    Name: 'resale-flat-prices-based-on-registration-date-from-march-2012-onwards.csv'
+    Title: 'Resale Flat Prices (Based on Registration Date), From March 2012 Onwards'
+    Url: 'https://data.gov.sg/dataset/7a339d20-3c57-4b11-a695-9348adfd7614/resource/83b2fc37-ce8c-4df4-968b-370fd818138b/download/resale-flat-prices-based-on-registration-date-from-march-2012-onwards.csv'
+    Format: 'CSV'
+    Coverage: '2012-03-01 to 2016-06-30'
+    Last Updated: '2016-07-22T03:56:34.693242'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'town'
+        Title: 'Town'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'block'
+        Title: 'Block'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'street_name'
+        Title: 'Street Name'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'storey_range'
+        Title: 'Storey Range'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'floor_area_sqm'
+        Title: 'Floor Area'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Sqm'
+      -
+        Name: 'flat_model'
+        Title: 'Flat Model'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'lease_commence_date'
+        Title: 'Lease Commence Date'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'resale_price'
+        Title: 'Resale Price'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+  -
+    Identifier: '8c00bf08-9124-479e-aeca-7cc411d884c4'
+    Name: 'resale-flat-prices-based-on-approval-date-2000-feb-2012.csv'
+    Title: 'Resale Flat Prices (Based on Approval Date), 2000 - Feb 2012'
+    Url: 'https://data.gov.sg/dataset/7a339d20-3c57-4b11-a695-9348adfd7614/resource/8c00bf08-9124-479e-aeca-7cc411d884c4/download/resale-flat-prices-based-on-approval-date-2000-feb-2012.csv'
+    Format: 'CSV'
+    Coverage: '2000-01-01 to 2012-02-29'
+    Last Updated: '2016-02-11T00:53:05.467711'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'town'
+        Title: 'Town'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'block'
+        Title: 'Block'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'street_name'
+        Title: 'Street Name'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'storey_range'
+        Title: 'Storey Range'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'floor_area_sqm'
+        Title: 'Floor Area'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Sqm'
+      -
+        Name: 'flat_model'
+        Title: 'Flat Model'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'lease_commence_date'
+        Title: 'Lease Commence Date'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'resale_price'
+        Title: 'Resale Price'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'

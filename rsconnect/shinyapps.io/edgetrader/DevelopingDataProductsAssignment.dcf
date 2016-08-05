@@ -1,0 +1,10 @@
+name: DevelopingDataProductsAssignment
+account: edgetrader
+server: shinyapps.io
+appId: 118174
+bundleId: 524878
+url: https://edgetrader.shinyapps.io/DevelopingDataProductsAssignment/
+when: 1470409883.98911
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: resale-flat-prices-based-on-registration-date-from-march-2012-onwards.csv|data/metadata-resale-flat-prices.txt|data/resale-flat-prices-based-on-approval-date-2000-feb-2012.csv|data/resale-flat-prices-based-on-registration-date-from-march-2012-onwards.csv|data/resale-flat-prices.zip
