@@ -74,7 +74,7 @@ shinyUI(fluidPage(
     h5('Summary:'),
     h5(
         'This application downloads the latest Resale Flat Prices (starting 2012) from 
-        http://data.gov.sg and summarises the information in 3 charts: 
+        http://data.gov.sg and summarises the information in 4 charts: 
         (a) Median price per month by flat type in a town 
         (b) Average price trend per quarter by flat type in a town
         (c) Number of sales recorded in each quarter by flat type in a town
